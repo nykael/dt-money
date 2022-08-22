@@ -27,7 +27,6 @@ export function TransactionsProvider({children} : TransactionProviderProps) {
         .then(response => response.json())
         .then(data => {
             setTransaction(data)
-            console.log(data)
         })
     },[])
 

@@ -23,6 +23,22 @@
       "category": "Educação",
       "price": 2000,
       "createdAt": "2022-08-19T20:05:10.406Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "category": "venda",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2022-08-22T18:28:23.615Z",
+      "id": 4
+    },
+    {
+      "description": "Batata palha ",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 7,
+      "createdAt": "2022-08-22T19:04:36.802Z",
+      "id": 5
     }
   ]
 }

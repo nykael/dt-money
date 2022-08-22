@@ -1,22 +1,22 @@
-import  * as Dialog  from "@radix-ui/react-dialog"; 
-import { HeaderContainer, HeaderContent, NewTransactionButton } from "./styles";
-import LogoImg from '../../assets/logo.svg';
-import { NewTransactionModal } from "../NewTransactionModal";
+import * as Dialog from '@radix-ui/react-dialog'
+import { HeaderContainer, HeaderContent, NewTransactionButton } from './styles'
+import LogoImg from '../../assets/logo.svg'
+import { NewTransactionModal } from '../NewTransactionModal'
 
 export function Header() {
-    return (
-        <HeaderContainer>
-            <HeaderContent>
-                <img src={LogoImg} />
+  return (
+    <HeaderContainer>
+      <HeaderContent>
+        <img src={LogoImg} />
 
-               <Dialog.Root>
-                  <Dialog.Trigger asChild>
-                    <NewTransactionButton>Nova transação</NewTransactionButton>
-                  </Dialog.Trigger>
+        <Dialog.Root>
+          <Dialog.Trigger asChild>
+            <NewTransactionButton>Nova transação</NewTransactionButton>
+          </Dialog.Trigger>
 
-                  <NewTransactionModal />
-               </Dialog.Root>
-            </HeaderContent>
-        </HeaderContainer>
-    )
+          <NewTransactionModal />
+        </Dialog.Root>
+      </HeaderContent>
+    </HeaderContainer>
+  )
 }
